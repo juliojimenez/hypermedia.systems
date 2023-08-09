@@ -8,7 +8,7 @@ from flask import (
 app: Flask = Flask(__name__)
 
 @app.route("/")
-def index() -> Literal["Hello World"]:
+def index() -> Literal["Hello World!"]:
     return "Hello World!"
 
 if __name__ == "__main__":
