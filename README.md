@@ -17,3 +17,4 @@ python3 app.py
 ### Chapter 3
 
 - [Simple Hello World](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-simple-hello-world)
+- [Simple Hello World to a Redirect](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-simple-hello-world-to-a-redirect)
