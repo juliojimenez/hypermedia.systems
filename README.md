@@ -16,7 +16,7 @@ python3 app.py
 
 ### Chapter 3
 
-- Simple Hello World
+- [Simple Hello World](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-simple-hello-world)
 
 ## Support
 
