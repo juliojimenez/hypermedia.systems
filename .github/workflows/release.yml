@@ -1,0 +1,30 @@
+name: Hypermedia Systems Example Code Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_version:
+        description: 'Release Tag'
+        required: true
+
+jobs:
+  release:
+    name: Hypermedia Systems Example Code Release
+    runs-on: ubuntu-latest
+
+    permissions: write-all
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ inputs.release_version }}
+          release_name: Release v${{ inputs.release_version }}
+          draft: false
+          prerelease: false
