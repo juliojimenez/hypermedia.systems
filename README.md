@@ -14,4 +14,10 @@ python3 app.py
 ```
 ## Examples
 
+### Chapter 3
+
 - Simple Hello World
+
+## Support
+
+Everything should work fine with python 3.9+
