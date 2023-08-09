@@ -17,7 +17,3 @@ python3 app.py
 ### Chapter 3
 
 - [Simple Hello World](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-simple-hello-world)
-
-## Support
-
-Everything should work fine with python 3.9+
