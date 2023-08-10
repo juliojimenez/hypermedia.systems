@@ -1,4 +1,4 @@
-name: Hypermedia Systems Example Code Release
+name: Release
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   release:
-    name: Hypermedia Systems Example Code Release
+    name: Release
     runs-on: ubuntu-latest
 
     permissions: write-all
