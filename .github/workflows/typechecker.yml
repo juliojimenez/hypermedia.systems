@@ -23,4 +23,4 @@ jobs:
           python3 -m pip install mypy 
 
       - name: Type Checker
-        run: mypy app.py
+        run: mypy .

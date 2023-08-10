@@ -19,11 +19,11 @@ def index() -> response.Response:
 
 @app.route("/contacts")
 def contacts() -> str:
-    search: str or None = request.args.get("q")
+    search: str | None = request.args.get("q")
     if search is not None:
         contacts_set: list = Contact.search(search)
     else:
-        contacts_set: list = Contact.all()
+        contacts_set = Contact.all()
     return render_template("index.html", contacts=contacts_set)
 
 if __name__ == "__main__":
