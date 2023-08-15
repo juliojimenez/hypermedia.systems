@@ -7,7 +7,6 @@ The code here is slightly different from the book, as I try to use types where I
 ## Running an Example
 
 Download an example from [Releases](https://github.com/juliojimenez/hypermedia.systems/releases) and run...
-
 ```bash
 pip3 install -r requirements.txt
 python3 app.py
@@ -20,3 +19,8 @@ python3 app.py
 - [Simple Hello World to a Redirect](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-simple-hello-world-to-a-redirect)
 - [Showing a Searchable List of Contacts](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-showing-a-searchable-list-of-contacts)
 - [Adding a New Contact](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-adding-a-new-contact)
+- [Viewing the Details of a Contact](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-viewing-the-details-of-a-contact)
+
+## Support
+
+Python 3.11+
