@@ -104,22 +104,6 @@
     "errors": {}
   },
   {
-    "id": 16,
-    "first": "Joe",
-    "last": "Blow",
-    "phone": "123-456-7890",
-    "email": "joe11@example.com",
-    "errors": {}
-  },
-  {
-    "id": 17,
-    "first": "Joe",
-    "last": "Blow",
-    "phone": "123-456-7890",
-    "email": "joe12@example.com",
-    "errors": {}
-  },
-  {
     "id": 18,
     "first": null,
     "last": null,
