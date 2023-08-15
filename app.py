@@ -1,21 +1,19 @@
 from contacts_model import Contact
-from flask import (
-    Flask,
-    redirect,
-    render_template,
-    request
-)
-from werkzeug.wrappers import (
-    response
-)
+from flask import Flask, flash, redirect, render_template, request
+from typing_extensions import LiteralString
+from werkzeug.wrappers import response
 
 Contact.load_db()
 
 app: Flask = Flask(__name__)
 
+app.secret_key = b"it is over"
+
+
 @app.route("/")
 def index() -> response.Response:
     return redirect("/contacts")
+
 
 @app.route("/contacts")
 def contacts() -> str:
@@ -25,6 +23,28 @@ def contacts() -> str:
     else:
         contacts_set = Contact.all()
     return render_template("index.html", contacts=contacts_set)
+
+
+@app.route("/contacts/new", methods=["GET"])
+def contacts_new_get() -> str:
+    return render_template("new.html", contact=Contact())
+
+
+@app.route("/contacts/new", methods=["POST"])
+def contacts_new() -> response.Response | str:
+    c: Contact = Contact(
+        None,
+        request.form["first_name"],
+        request.form["last_name"],
+        request.form["phone"],
+        request.form["email"],
+    )
+    if c.save():
+        flash("Created New Contact!")
+        return redirect("/contacts")
+    else:
+        return render_template("new.html", contact=c)
+
 
 if __name__ == "__main__":
     app.run()
