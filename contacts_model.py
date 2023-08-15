@@ -24,6 +24,12 @@ class Contact:
 
     def __str__(self) -> str:
         return json.dumps(self.__dict__, ensure_ascii=False)
+    
+    def update(self, first: str, last: str, phone: str, email: str) -> None:
+        self.first = first
+        self.last = last
+        self.phone = phone
+        self.email = email
 
     def validate(self) -> bool:
         if not self.email:
@@ -86,8 +92,8 @@ class Contact:
             json.dump(out_arr, f, indent=2)
 
     @classmethod
-    def find(cls, id_):
-        id_: int = int(id_)
+    def find(cls, id_) -> Any | None:
+        id_ = int(id_)
         c: Any | None = cls.db.get(id_)
         if c is not None:
             c.errors = {}
