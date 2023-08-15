@@ -21,6 +21,7 @@ python3 app.py
 - [Adding a New Contact](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-adding-a-new-contact)
 - [Viewing the Details of a Contact](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-viewing-the-details-of-a-contact)
 - [Editing a Contact](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-editing-a-contact)
+- [Deleting a Contact](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-deleting-a-contact)
 
 ## Support
 
