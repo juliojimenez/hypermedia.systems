@@ -7,9 +7,50 @@ updates:
       time: "05:00"
       timezone: UTC
   - package-ecosystem: pip
-    directory: /
+    directory: /chapter-3/1-simple-hello-world
     schedule:
       interval: daily
       time: "05:00"
       timezone: UTC
-  
+  - package-ecosystem: pip
+    directory: /chapter-3/2-simple-hello-world-to-a-redirect
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: /chapter-3/3-showing-a-searchable-list-of-contacts
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: /chapter-3/4-adding-a-new-contact
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: /chapter-3/5-viewing-the-details-of-a-contact
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: /chapter-3/6-editing-a-contact
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: /chapter-3/7-deleting-a-contact
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: /chapter-4/1-installing-htmx
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
