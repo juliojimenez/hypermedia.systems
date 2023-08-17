@@ -7,6 +7,18 @@ jobs:
   type_checker:
     name: Type Checker
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        example: [
+          "chapter-3/1-simple-hello-world",
+          "chapter-3/2-simple-hello-world-to-a-redirect",
+          "chapter-3/3-showing-a-searchable-list-of-contacts",
+          "chapter-3/4-adding-a-new-contact",
+          "chapter-3/5-viewing-the-details-of-a-contact",
+          "chapter-3/6-editing-a-contact",
+          "chapter-3/7-deleting-a-contact",
+          "chapter-4/1-installing-htmx"
+        ]
 
     steps:
       - name: Checkout Code
@@ -18,9 +30,11 @@ jobs:
           python-version: '3.11'
 
       - name: Install Dependencies
+        working-directory: ${{matrix.example}}
         run: |
           pip install -r requirements.txt
           python3 -m pip install mypy 
 
       - name: Type Checker
+        working-directory: ${{matrix.example}}
         run: mypy .
