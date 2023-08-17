@@ -23,6 +23,10 @@ python3 app.py
 - [Editing a Contact](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-editing-a-contact)
 - [Deleting a Contact](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-3-deleting-a-contact)
 
+### Chapter 4
+
+- [Installing HTMX](https://github.com/juliojimenez/hypermedia.systems/releases/tag/chapter-4-installing-htmx)
+
 ## Support
 
 Python 3.11+
