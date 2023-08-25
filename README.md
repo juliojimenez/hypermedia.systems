@@ -35,7 +35,11 @@ You can also explore the project by using the links below.
 
 ### Chapter 4
 
-- [Installing HTMX](./chapter-4/1-installing-htmx/)
+- [Installing HTMX as a Third Party Dependency](./chapter-4/1-installing-htmx-third-party/)
+
+### Chapter 5
+
+- [Installing HTMX as a Vendored Dependency](./chapter-5/1-installing-htmx-vendored/)
 
 ## Support
 
