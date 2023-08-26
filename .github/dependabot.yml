@@ -49,7 +49,67 @@ updates:
       time: "05:00"
       timezone: UTC
   - package-ecosystem: pip
-    directory: /chapter-4/1-installing-htmx
+    directory: /chapter-4/1-installing-htmx-third-party
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: /chapter-4/2-triggering-http-requests
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-4/3-htmx-vs-plain-html-responses
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-4/4-targeting-other-elements
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-4/5-swap-styles
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-4/6-using-events-mouseenter
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-4/7-using-events-click-and-keyup
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-4/8-passing-request-parameters-enclosing-forms
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-4/9-passing-request-parameters-including-inputs
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-4/10-passing-request-parameters-inline-values
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: /chapter-5/1-installing-htmx-vendored
     schedule:
       interval: daily
       time: "05:00"

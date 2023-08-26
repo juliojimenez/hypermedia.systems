@@ -17,7 +17,18 @@ jobs:
           "chapter-3/5-viewing-the-details-of-a-contact",
           "chapter-3/6-editing-a-contact",
           "chapter-3/7-deleting-a-contact",
-          "chapter-4/1-installing-htmx"
+          "chapter-4/1-installing-htmx-third-party",
+          "chapter-4/2-triggering-http-requests",
+          "chapter-4/3-htmx-vs-plain-html-responses",
+          "chapter-4/4-targeting-other-elements",
+          "chapter-4/5-swap-styles",
+          "chapter-4/6-using-events-mouseenter",
+          "chapter-4/7-using-events-click-and-keyup",
+          "chapter-4/8-passing-request-parameters-enclosing-forms",
+          "chapter-4/9-passing-request-parameters-including-inputs",
+          "chapter-4/10-passing-request-parameters-inline-values",
+          "chapter-4/11-history-support",
+          "chapter-5/1-installing-htmx-vendored"
         ]
 
     steps:

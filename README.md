@@ -35,7 +35,23 @@ You can also explore the project by using the links below.
 
 ### Chapter 4
 
-- [Installing HTMX](./chapter-4/1-installing-htmx/)
+- [Installing HTMX as a Third Party Dependency](./chapter-4/1-installing-htmx-third-party/)
+- [Triggering HTTP Requests](./chapter-4/2-triggering-http-requests/)
+- [HTMX vs. Plain HTML Responses](./chapter-4/3-htmx-vs-plain-html-responses/)
+- [Targeting Other Elements](./chapter-4/4-targeting-other-elements/)
+- [Swap Styles](./chapter-4/5-swap-styles/)
+- Using Events
+    - [mouseenter](./chapter-4/6-using-events-mouseenter/)
+    - [click and keyup](./chapter-4/7-using-events-click-and-keyup/)
+- Passing Request Parameters
+    - [Enclosing Forms](./chapter-4/8-passing-request-parameters-enclosing-forms/)
+    - [Including Inputs](./chapter-4/9-passing-request-parameters-including-inputs/)
+    - [Inline Values](./chapter-4/10-passing-request-parameters-inline-values/)
+- [History Support](./chapter-4/11-history-support/)
+
+### Chapter 5
+
+- [Installing HTMX as a Vendored Dependency](./chapter-5/1-installing-htmx-vendored/)
 
 ## Support
 

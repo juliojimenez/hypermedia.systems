@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <button hx-get="/contacts" hx-target="#main" hx-swap="innerHTML" hx-trigger="click, keyup[ctrlKey && key == 'L'] from:body">
+        Get The Contacts
+    </button>
+    <button hx-get="/contacts-state" hx-target="#main" hx-swap="innerHTML" hx-vals='{"state": "MT"}'>
+        Get The Contacts In Montana
+    </button>
+    <button hx-get="/contacts-state" hx-target="#main" hx-swap="innerHTML" hx-vals='js:{"state": getCurrentState()}'>
+        Get The Contacts In Montana using JavaScript
+    </button>
+    <div id="main"></div>
+    <label for="search">Search Contacts:</label>
+    <input id="search" name="q" type="search" placeholder="Search Contacts">
+    <button hx-post="/contacts" hx-target="#main" hx-include="#search">
+        Search The Contacts
+    </button>
+{% endblock %}
