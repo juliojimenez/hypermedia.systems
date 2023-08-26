@@ -73,7 +73,8 @@ def contacts_edit_post(contact_id: int = 0) -> response.Response | str:
         return redirect("/contacts/" + str(contact_id))
     else:
         return render_template("edit.html", contact=c)
-    
+
+
 @app.route("/contacts/<contact_id>/delete", methods=["POST"])
 def contacts_delete(contact_id: int = 0) -> response.Response:
     contact: Any | None = Contact.find(contact_id)

@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div id="main">
+        <button hx-get="/contacts-partial" hx-target="#main" hx-swap="outerHTML" hx-trigger="click, keyup[ctrlKey && key == 'L'] from:body">
+            Get The Contacts
+        </button>
+    </div>
+{% endblock %}

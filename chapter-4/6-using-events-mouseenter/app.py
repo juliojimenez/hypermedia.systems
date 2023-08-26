@@ -10,5 +10,15 @@ def index() -> str:
     return render_template("index.html")
 
 
+@app.route("/contacts-partial")
+def contacts_partial() -> str:
+    return render_template("partial.html")
+
+
+@app.route("/contacts-demo")
+def contacts_demo() -> str:
+    return "You got contacts!"
+
+
 if __name__ == "__main__":
     app.run()
