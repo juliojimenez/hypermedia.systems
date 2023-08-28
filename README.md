@@ -52,6 +52,7 @@ You can also explore the project by using the links below.
 ### Chapter 5
 
 - [Installing HTMX as a Vendored Dependency](./chapter-5/1-installing-htmx-vendored/)
+- [Adding hx-boost to Contact.app](./chapter-5/2-adding-hx-boost-to-contact-app/)
 
 ## Support
 

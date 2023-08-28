@@ -1,0 +1,31 @@
+name: Tests
+
+on:
+  push:
+
+jobs:
+  tests:
+    name: Type Checker
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        example: [
+          "chapter-3/1-simple-hello-world"
+        ]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        working-directory: ${{matrix.example}}
+        run: pip install -r requirements.txt
+
+      - name: Run Tests
+        working-directory: ${{matrix.example}}
+        run: python3 -m pip install mypy
