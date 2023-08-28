@@ -10,7 +10,8 @@ jobs:
     strategy:
       matrix:
         example: [
-          "chapter-3/1-simple-hello-world"
+          "chapter-3/1-simple-hello-world",
+          "chapter-3/2-simple-hello-world-to-a-redirect"
         ]
 
     steps:
