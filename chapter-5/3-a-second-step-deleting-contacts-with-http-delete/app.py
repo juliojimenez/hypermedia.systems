@@ -75,13 +75,13 @@ def contacts_edit_post(contact_id: int = 0) -> response.Response | str:
         return render_template("edit.html", contact=c)
 
 
-@app.route("/contacts/<contact_id>/delete", methods=["POST"])
+@app.route("/contacts/<contact_id>", methods=["DELETE"])
 def contacts_delete(contact_id: int = 0) -> response.Response:
     contact: Any | None = Contact.find(contact_id)
     if contact is not None:
         contact.delete()
-        flash("Deleted Contact!")
-    return redirect("/contacts")
+    flash("Deleted Contact!")
+    return redirect("/contacts", 303)
 
 
 if __name__ == "__main__":
