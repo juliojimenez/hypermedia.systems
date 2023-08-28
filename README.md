@@ -1,8 +1,10 @@
 # hypermedia.systems
 
+[![Type Checker](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml) [![Tests](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml)
+
 Following along with the examples from the book [Hypermedia Systems](https://hypermedia.systems).
 
-The code here is slightly different from the book, as I try to use types where I can, and check for them using [Mypy](https://mypy.readthedocs.io/en/stable/index.html), a static type checker for Python.
+The code here is slightly different from the book, as I try to use types where I can, and check for them using [Mypy](https://mypy.readthedocs.io/en/stable/index.html), a static type checker for Python. [PyTest](https://docs.pytest.org/en/7.4.x/) is used for testing.
 
 ## Running an Example
 
@@ -52,7 +54,7 @@ You can also explore the project by using the links below.
 ### Chapter 5
 
 - [Installing HTMX as a Vendored Dependency](./chapter-5/1-installing-htmx-vendored/)
-- [Adding hx-boost to Contact.app](./chapter-5/2-adding-hx-boost-to-contact-app/)
+- [Adding hx-boost to Contacts.app](./chapter-5/2-adding-hx-boost-to-contact-app/)
 
 ## Support
 
