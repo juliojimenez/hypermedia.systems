@@ -55,6 +55,7 @@ You can also explore the project by using the links below.
 
 - [Installing HTMX as a Vendored Dependency](./chapter-5/1-installing-htmx-vendored/)
 - [Adding hx-boost to Contacts.app](./chapter-5/2-adding-hx-boost-to-contact-app/)
+- [A Second Step: Deleting Contacts With HTTP DELETE](./chapter-5/3-a-second-step-deleting-contacts-with-http-delete/)
 
 ## Support
 

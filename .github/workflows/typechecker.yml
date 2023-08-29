@@ -29,7 +29,8 @@ jobs:
           "chapter-4/10-passing-request-parameters-inline-values",
           "chapter-4/11-history-support",
           "chapter-5/1-installing-htmx-vendored",
-          "chapter-5/2-adding-hx-boost-to-contact-app"
+          "chapter-5/2-adding-hx-boost-to-contact-app",
+          "chapter-5/3-a-second-step-deleting-contacts-with-http-delete"
         ]
 
     steps:
