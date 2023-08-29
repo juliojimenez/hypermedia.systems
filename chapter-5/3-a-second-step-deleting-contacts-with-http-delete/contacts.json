@@ -56,14 +56,6 @@
     "errors": {}
   },
   {
-    "id": 10,
-    "first": "Joe",
-    "last": "Blow",
-    "phone": "123-456-7890",
-    "email": "joe5@example.com",
-    "errors": {}
-  },
-  {
     "id": 11,
     "first": "Joe",
     "last": "Shmoe",
@@ -85,22 +77,6 @@
     "last": "Blow",
     "phone": "123-456-7890",
     "email": "joe8@example.com",
-    "errors": {}
-  },
-  {
-    "id": 14,
-    "first": "Joe",
-    "last": "Blow",
-    "phone": "123-456-7890",
-    "email": "joe9@example.com",
-    "errors": {}
-  },
-  {
-    "id": 15,
-    "first": "Joe",
-    "last": "Blow",
-    "phone": "123-456-7890",
-    "email": "joe10@example.com",
     "errors": {}
   },
   {
