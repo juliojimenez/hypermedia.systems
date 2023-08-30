@@ -1,4 +1,5 @@
 from contacts_model import Contact
+from typing import Any
 
 Contact.load_db()
 
@@ -34,4 +35,6 @@ def test_contacts_find() -> None:
 
 
 def test_contacts_delete() -> None:
-    print(Contact.delete(Contact.find(Contact.all()[-1].id)))
+    contact: Any | None = Contact.find(Contact.all()[-1].id)
+    if contact is not None:
+        assert Contact.delete(contact)

@@ -57,9 +57,10 @@ class Contact:
         Contact.save_db()
         return True
     
-    def delete(self) -> None:
+    def delete(self) -> bool:
         del Contact.db[self.id]
         Contact.save_db()
+        return True
 
     @classmethod
     def all(cls, page: int = 1) -> list:
