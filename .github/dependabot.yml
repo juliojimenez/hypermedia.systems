@@ -120,3 +120,15 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-5/3-a-second-step-deleting-contacts-with-http-delete
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-5/4-next-steps-validating-contact-emails-update-our-input-type
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
