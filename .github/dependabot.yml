@@ -132,3 +132,9 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-5/5-next-steps-validating-contact-emails-inline-validation
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC

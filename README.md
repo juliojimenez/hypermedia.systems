@@ -57,7 +57,8 @@ You can also explore the project by using the links below.
 - [Adding hx-boost to Contacts.app](./chapter-5/2-adding-hx-boost-to-contact-app/)
 - [A Second Step: Deleting Contacts With HTTP DELETE](./chapter-5/3-a-second-step-deleting-contacts-with-http-delete/)
 - Next Steps: Validating Contact Emails
-    - [Update Our Input Type]
+    - [Update Our Input Type](./chapter-5/4-next-steps-validating-contact-emails-update-our-input-type/)
+    - [Inline Validation](./chapter-5/5-next-steps-validating-contact-emails-inline-validation/)
 
 ## Support
 

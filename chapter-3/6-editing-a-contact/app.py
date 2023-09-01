@@ -60,7 +60,7 @@ def contacts_edit_get(contact_id=0) -> str:
 
 @app.route("/contacts/<contact_id>/edit", methods=["POST"])
 def contacts_edit_post(contact_id: int = 0) -> response.Response | str:
-    c: Any | None = Contact.find(contact_id)
+    c: Any = Contact.find(contact_id)
     if c is not None:
         c.update(
             request.form["first_name"],
