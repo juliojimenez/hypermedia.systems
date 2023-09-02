@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <title>Contact App</title>
+        <script src="/static/js/htmx.js"></script>
+        <link rel="stylesheet" href="https://the.missing.style/v0.2.0/missing.min.css">
+        <link rel="stylesheet" href="/static/css/site.css">
+    </head>
+    <body hx-boost="true">
+        <main>
+            <header>
+                <h1>
+                    <span style="text-transform:uppercase;">contacts.app</span>
+                    <sub-title>A Demo Contacts Application</sub-title>
+                </h1>
+            </header>
+            {% block content %}{% endblock %}
+        </main>
+    </body>
+</html>
