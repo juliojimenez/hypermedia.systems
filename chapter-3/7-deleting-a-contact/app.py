@@ -61,13 +61,12 @@ def contacts_edit_get(contact_id: int = 0) -> str:
 @app.route("/contacts/<contact_id>/edit", methods=["POST"])
 def contacts_edit_post(contact_id: int = 0) -> response.Response | str:
     c: Any = Contact.find(contact_id)
-    if c is not None:
-        c.update(
-            request.form["first_name"],
-            request.form["last_name"],
-            request.form["phone"],
-            request.form["email"],
-        )
+    c.update(
+        request.form["first_name"],
+        request.form["last_name"],
+        request.form["phone"],
+        request.form["email"],
+    )
     if c.save():
         flash("Updated Contact!")
         return redirect("/contacts/" + str(contact_id))

@@ -53,7 +53,7 @@ def contacts_view(contact_id: int = 0) -> str:
 
 
 @app.route("/contacts/<contact_id>/edit", methods=["GET"])
-def contacts_edit_get(contact_id=0) -> str:
+def contacts_edit_get(contact_id: int = 0) -> str:
     contact: Any | None = Contact.find(contact_id)
     return render_template("edit.html", contact=contact)
 
@@ -72,6 +72,23 @@ def contacts_edit_post(contact_id: int = 0) -> response.Response | str:
         return redirect("/contacts/" + str(contact_id))
     else:
         return render_template("edit.html", contact=c)
+
+
+@app.route("/contacts/<contact_id>/email", methods=["GET"])
+def contacts_email_get(contact_id=0) -> response.Response | str:
+    c: Any = Contact.find(contact_id)
+    c.email = request.args.get("email")
+    c.validate()
+    return c.errors.get("email") or ""
+
+
+@app.route("/contacts/<contact_id>", methods=["DELETE"])
+def contacts_delete(contact_id: int = 0) -> response.Response:
+    contact: Any | None = Contact.find(contact_id)
+    if contact is not None:
+        contact.delete()
+    flash("Deleted Contact!")
+    return redirect("/contacts", 303)
 
 
 if __name__ == "__main__":
