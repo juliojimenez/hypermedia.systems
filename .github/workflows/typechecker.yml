@@ -33,7 +33,9 @@ jobs:
           "chapter-5/3-a-second-step-deleting-contacts-with-http-delete",
           "chapter-5/4-next-steps-validating-contact-emails-update-our-input-type",
           "chapter-5/5-next-steps-validating-contact-emails-inline-validation",
-          "chapter-5/6-next-steps-validating-contact-emails-validating-emails-server-side"
+          "chapter-5/6-next-steps-validating-contact-emails-validating-emails-server-side",
+          "chapter-5/7-next-steps-validating-contact-emails-taking-the-user-experience-further",
+          "chapter-5/8-next-steps-validating-contact-emails-debouncing-our-validation-requests"
         ]
 
     steps:

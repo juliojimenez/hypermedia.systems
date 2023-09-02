@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
 python3 app.py
 ```
 
-Each example runs on a different port. Run multiple examples simultaneously and compare them in the browser.
+Each example runs on a different port. Run multiple examples simultaneously and compare them in the browser!
 
 Explore the all the examples by using the links below.
 
@@ -63,6 +63,8 @@ Explore the all the examples by using the links below.
     - [Update Our Input Type](./chapter-5/4-next-steps-validating-contact-emails-update-our-input-type/)
     - [Inline Validation](./chapter-5/5-next-steps-validating-contact-emails-inline-validation/)
     - [Validating Emails Server-Side](./chapter-5/6-next-steps-validating-contact-emails-validating-emails-server-side/)
+    - [Taking The User Experience Further](./chapter-5/7-next-steps-validating-contact-emails-taking-the-user-experience-further/)
+    - [Debouncing Our Validation Requests](./chapter-5/8-next-steps-validating-contact-emails-debouncing-our-validation-requests/)
 
 ## Support
 
