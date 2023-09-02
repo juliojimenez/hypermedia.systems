@@ -9,7 +9,7 @@
             <label for="email">Email</label>
             <input name="email" id="email" type="email" 
                    hx-get="/contacts/{{ contact.id }}/email" 
-                   hx-target="next .error" 
+                   hx-target="next .error"
                    placeholder="Email" value="{{ contact.email }}">
             <span class="error">{{ contact.errors['email'] }}</span>
         </p>

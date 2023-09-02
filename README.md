@@ -59,7 +59,7 @@ You can also explore the project by using the links below.
 - Next Steps: Validating Contact Emails
     - [Update Our Input Type](./chapter-5/4-next-steps-validating-contact-emails-update-our-input-type/)
     - [Inline Validation](./chapter-5/5-next-steps-validating-contact-emails-inline-validation/)
-
+    - [Validating Emails Server-Side](./chapter-5/6-next-steps-validating-contact-emails-validating-emails-server-side/)
 ## Support
 
 Python 3.11+

@@ -32,7 +32,8 @@ jobs:
           "chapter-5/2-adding-hx-boost-to-contact-app",
           "chapter-5/3-a-second-step-deleting-contacts-with-http-delete",
           "chapter-5/4-next-steps-validating-contact-emails-update-our-input-type",
-          "chapter-5/5-next-steps-validating-contact-emails-inline-validation"
+          "chapter-5/5-next-steps-validating-contact-emails-inline-validation",
+          "chapter-5/6-next-steps-validating-contact-emails-validating-emails-server-side"
         ]
 
     steps:
