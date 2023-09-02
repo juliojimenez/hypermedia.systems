@@ -92,4 +92,4 @@ def contacts_delete(contact_id: int = 0) -> response.Response:
 
 
 if __name__ == "__main__":
-    app.run(port=5024)
+    app.run(port=5025)
