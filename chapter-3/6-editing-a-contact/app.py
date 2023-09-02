@@ -75,4 +75,4 @@ def contacts_edit_post(contact_id: int = 0) -> response.Response | str:
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=5006)

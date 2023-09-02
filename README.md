@@ -21,7 +21,10 @@ And run it...
 pip3 install -r requirements.txt
 python3 app.py
 ```
-You can also explore the project by using the links below.
+
+Each example runs on a different port. Run multiple examples simultaneously and compare them in the browser.
+
+Explore the all the examples by using the links below.
 
 ## Examples
 
@@ -60,6 +63,7 @@ You can also explore the project by using the links below.
     - [Update Our Input Type](./chapter-5/4-next-steps-validating-contact-emails-update-our-input-type/)
     - [Inline Validation](./chapter-5/5-next-steps-validating-contact-emails-inline-validation/)
     - [Validating Emails Server-Side](./chapter-5/6-next-steps-validating-contact-emails-validating-emails-server-side/)
+
 ## Support
 
 Python 3.11+

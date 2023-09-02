@@ -20,7 +20,9 @@ jobs:
           "chapter-4/1-installing-htmx-third-party",
           "chapter-4/2-triggering-http-requests",
           "chapter-4/3-htmx-vs-plain-html-responses",
-          "chapter-4/4-targeting-other-elements"
+          "chapter-4/4-targeting-other-elements",
+          "chapter-4/5-swap-styles",
+          "chapter-4/6-using-events-mouseenter"
         ]
 
     steps:
