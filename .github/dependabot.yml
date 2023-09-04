@@ -138,3 +138,45 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-5/6-next-steps-validating-contact-emails-validating-emails-server-side
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-5/7-next-steps-validating-contact-emails-taking-the-user-experience-further
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-5/8-next-steps-validating-contact-emails-debouncing-our-validation-requests
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-5/9-next-steps-validating-contact-emails-ignoring-non-mutating-keys
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-5/10-another-application-improvement-paging-adding-paging-widgets
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-5/11-another-application-improvement-paging-click-to-load
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-5/12-another-application-improvement-paging-infinite-scroll
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC

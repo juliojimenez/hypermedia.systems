@@ -68,6 +68,8 @@ Explore the all the examples by using the links below.
     - [Ignoring Non-Mutating Keys](./chapter-5/9-next-steps-validating-contact-emails-ignoring-non-mutating-keys/)
 - Another Application Improvement: Paging
     - [Adding Paging Widgets](./chapter-5/10-another-application-improvement-paging-adding-paging-widgets/)
+    - [Click To Load](./chapter-5/11-another-application-improvement-paging-click-to-load/)
+    - [Infinite Scroll](./chapter-5/12-another-application-improvement-paging-infinite-scroll/)
 
 ## Support
 
