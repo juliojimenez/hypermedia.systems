@@ -25,7 +25,9 @@ jobs:
           "chapter-4/6-using-events-mouseenter",
           "chapter-4/7-using-events-click-and-keyup",
           "chapter-4/8-passing-request-parameters-enclosing-forms",
-          "chapter-4/9-passing-request-parameters-including-inputs"
+          "chapter-4/9-passing-request-parameters-including-inputs",
+          "chapter-4/10-passing-request-parameters-inline-values",
+          "chapter-4/11-history-support"
         ]
 
     steps:

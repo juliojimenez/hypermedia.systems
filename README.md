@@ -66,6 +66,8 @@ Explore the all the examples by using the links below.
     - [Taking The User Experience Further](./chapter-5/7-next-steps-validating-contact-emails-taking-the-user-experience-further/)
     - [Debouncing Our Validation Requests](./chapter-5/8-next-steps-validating-contact-emails-debouncing-our-validation-requests/)
     - [Ignoring Non-Mutating Keys](./chapter-5/9-next-steps-validating-contact-emails-ignoring-non-mutating-keys/)
+- Another Application Improvement: Paging
+    - [Adding Paging Widgets](./chapter-5/10-another-application-improvement-paging-adding-paging-widgets/)
 
 ## Support
 
