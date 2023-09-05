@@ -66,7 +66,7 @@
   {
     "id": 11,
     "first": "Joe",
-    "last": "Shmoe",
+    "last": "Blow",
     "phone": "123-456-7890",
     "email": "joe6@example.com",
     "errors": {}
@@ -137,74 +137,26 @@
   },
   {
     "id": 20,
-    "first": "Mickey",
-    "last": "Mouse",
-    "phone": "555-867-5309",
-    "email": "mickey@disney.com",
+    "first": null,
+    "last": null,
+    "phone": null,
+    "email": "restexample3@example.com",
     "errors": {}
   },
   {
     "id": 21,
-    "first": "Minnie",
-    "last": "Mouse",
-    "phone": "555-867-5309",
-    "email": "minnie@disney.com",
+    "first": null,
+    "last": null,
+    "phone": null,
+    "email": "restexample4@example.com",
     "errors": {}
   },
   {
     "id": 22,
-    "first": "Test",
-    "last": "Contact",
-    "phone": "666-666-6666",
-    "email": "88c44f7a@example.com",
-    "errors": {}
-  },
-  {
-    "id": 23,
-    "first": "Test",
-    "last": "Contact",
-    "phone": "555-555-5555",
-    "email": "b63d4ff4@example.com",
-    "errors": {}
-  },
-  {
-    "id": 24,
-    "first": "Test",
-    "last": "Contact",
-    "phone": "555-555-5555",
-    "email": "b2dbc0db@example.com",
-    "errors": {}
-  },
-  {
-    "id": 25,
-    "first": "Test",
-    "last": "Contact",
-    "phone": "555-555-5555",
-    "email": "67fcfec1@example.com",
-    "errors": {}
-  },
-  {
-    "id": 26,
-    "first": "Test",
-    "last": "Contact",
-    "phone": "555-555-5555",
-    "email": "8293c823@example.com",
-    "errors": {}
-  },
-  {
-    "id": 27,
-    "first": "Test",
-    "last": "Contact",
-    "phone": "555-555-5555",
-    "email": "a52bdf2c@example.com",
-    "errors": {}
-  },
-  {
-    "id": 28,
-    "first": "Test",
-    "last": "Contact",
-    "phone": "555-555-5555",
-    "email": "5c4d054f@example.com",
+    "first": null,
+    "last": null,
+    "phone": null,
+    "email": "restexample5@example.com",
     "errors": {}
   }
 ]

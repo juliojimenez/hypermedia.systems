@@ -1,6 +1,14 @@
 from app import app
+import json
+from typing import Any
 import uuid
 from werkzeug.test import TestResponse
+
+
+def get_last_contact_id() -> int:
+    with open("contacts.json", "r") as contacts_file:
+        contacts: Any = json.load(contacts_file)
+        return contacts[-1]["id"]
 
 
 def test_index() -> None:
@@ -61,7 +69,7 @@ def test_contacts_edit_not_exists() -> None:
 
 def test_contacts_edit_post() -> None:
     response: TestResponse = app.test_client().post(
-        "/contacts/21/edit",
+        f"/contacts/{get_last_contact_id()}/edit",
         data={
             "first_name": "Test",
             "last_name": "Contact",
@@ -73,5 +81,5 @@ def test_contacts_edit_post() -> None:
 
 
 def test_contacts_delete_post() -> None:
-    response: TestResponse = app.test_client().delete("/contacts/21")
+    response: TestResponse = app.test_client().delete(f"/contacts/{get_last_contact_id()}")
     assert response.status_code == 303

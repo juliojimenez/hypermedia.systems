@@ -137,42 +137,26 @@
   },
   {
     "id": 20,
-    "first": "Mickey",
-    "last": "Mouse",
-    "phone": "555-867-5309",
-    "email": "mickey@disney.com",
+    "first": null,
+    "last": null,
+    "phone": null,
+    "email": "restexample3@example.com",
     "errors": {}
   },
   {
     "id": 21,
-    "first": "Minnie",
-    "last": "Mouse",
-    "phone": "555-867-5309",
-    "email": "minnie@disney.com",
+    "first": null,
+    "last": null,
+    "phone": null,
+    "email": "restexample4@example.com",
     "errors": {}
   },
   {
     "id": 22,
-    "first": "Test",
-    "last": "Contact",
-    "phone": "555-555-5555",
-    "email": "6a06da03@example.com",
-    "errors": {}
-  },
-  {
-    "id": 23,
-    "first": "Test",
-    "last": "Contact",
-    "phone": "555-555-5555",
-    "email": "71f8bfd8@example.com",
-    "errors": {}
-  },
-  {
-    "id": 24,
-    "first": "Test",
-    "last": "Contact",
-    "phone": "555-555-5555",
-    "email": "e03e80f3@example.com",
+    "first": null,
+    "last": null,
+    "phone": null,
+    "email": "restexample5@example.com",
     "errors": {}
   }
 ]
