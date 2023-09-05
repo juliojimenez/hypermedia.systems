@@ -24,7 +24,7 @@ class Contact:
 
     def __str__(self) -> str:
         return json.dumps(self.__dict__, ensure_ascii=False)
-    
+
     def update(self, first: str, last: str, phone: str, email: str) -> None:
         self.first = first
         self.last = last
@@ -56,7 +56,7 @@ class Contact:
             Contact.db[self.id] = self
         Contact.save_db()
         return True
-    
+
     def delete(self) -> bool:
         del Contact.db[self.id]
         Contact.save_db()

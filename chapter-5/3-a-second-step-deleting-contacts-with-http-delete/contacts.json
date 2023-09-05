@@ -102,13 +102,5 @@
     "phone": "555-867-5309",
     "email": "mickey@disney.com",
     "errors": {}
-  },
-  {
-    "id": 21,
-    "first": "Minnie",
-    "last": "Mouse",
-    "phone": "555-867-5309",
-    "email": "minnie@disney.com",
-    "errors": {}
   }
 ]

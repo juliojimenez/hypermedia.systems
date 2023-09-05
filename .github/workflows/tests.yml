@@ -27,7 +27,19 @@ jobs:
           "chapter-4/8-passing-request-parameters-enclosing-forms",
           "chapter-4/9-passing-request-parameters-including-inputs",
           "chapter-4/10-passing-request-parameters-inline-values",
-          "chapter-4/11-history-support"
+          "chapter-4/11-history-support",
+          "chapter-5/1-installing-htmx-vendored",
+          "chapter-5/2-adding-hx-boost-to-contact-app",
+          "chapter-5/3-a-second-step-deleting-contacts-with-http-delete",
+          "chapter-5/4-next-steps-validating-contact-emails-update-our-input-type",
+          "chapter-5/5-next-steps-validating-contact-emails-inline-validation",
+          "chapter-5/6-next-steps-validating-contact-emails-validating-emails-server-side",
+          "chapter-5/7-next-steps-validating-contact-emails-taking-the-user-experience-further",
+          "chapter-5/8-next-steps-validating-contact-emails-debouncing-our-validation-requests",
+          "chapter-5/9-next-steps-validating-contact-emails-ignoring-non-mutating-keys",
+          "chapter-5/10-another-application-improvement-paging-adding-paging-widgets",
+          "chapter-5/11-another-application-improvement-paging-click-to-load",
+          "chapter-5/12-another-application-improvement-paging-infinite-scroll"
         ]
 
     steps:
