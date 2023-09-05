@@ -21,6 +21,11 @@ def test_contacts_all() -> None:
     assert b"<td>Carson</td>" in response.data
 
 
+def test_contacts_page() -> None:
+    response: TestResponse = app.test_client().get("/contacts?page=2")
+    assert b"<td>Blow</td>" in response.data
+
+
 def test_contacts_search() -> None:
     response: TestResponse = app.test_client().get("/contacts?q=carson")
     assert b"<td>Carson</td>" in response.data
