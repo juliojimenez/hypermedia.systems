@@ -81,5 +81,7 @@ def test_contacts_edit_post() -> None:
 
 
 def test_contacts_delete_post() -> None:
-    response: TestResponse = app.test_client().post(f"/contacts/{get_last_contact_id()}/delete")
+    response: TestResponse = app.test_client().post(
+        f"/contacts/{get_last_contact_id()}/delete"
+    )
     assert response.status_code == 302

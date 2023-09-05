@@ -84,19 +84,25 @@ def test_contacts_edit_post() -> None:
 
 def test_contacts_email_get_no_email() -> None:
     response: TestResponse = app.test_client().get("/contacts/2/email")
-    assert b'Email Required' in response.data
+    assert b"Email Required" in response.data
 
 
 def test_contacts_email_get_non_unique() -> None:
-    response: TestResponse = app.test_client().get("/contacts/2/email?email=joe@example.com")
-    assert b'Email Must Be Unique' in response.data
+    response: TestResponse = app.test_client().get(
+        "/contacts/2/email?email=joe@example.com"
+    )
+    assert b"Email Must Be Unique" in response.data
 
 
 def test_contacts_email_get_unique() -> None:
-    response: TestResponse = app.test_client().get("/contacts/2/email?email=carson@example.comz")
-    assert b'' in response.data
+    response: TestResponse = app.test_client().get(
+        "/contacts/2/email?email=carson@example.comz"
+    )
+    assert b"" in response.data
 
 
 def test_contacts_delete_post() -> None:
-    response: TestResponse = app.test_client().delete(f"/contacts/{get_last_contact_id()}")
+    response: TestResponse = app.test_client().delete(
+        f"/contacts/{get_last_contact_id()}"
+    )
     assert response.status_code == 303

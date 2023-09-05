@@ -2,9 +2,11 @@
 
 [![Type Checker](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml) [![Tests](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml)
 
-Following along with the examples from the book [Hypermedia Systems](https://hypermedia.systems).
+Follow along with the examples from the book [Hypermedia Systems](https://hypermedia.systems).
 
-The code here is slightly different from the book, as I try to use types where I can, and check for them using [Mypy](https://mypy.readthedocs.io/en/stable/index.html), a static type checker for Python. [PyTest](https://docs.pytest.org/en/7.4.x/) is used for testing.
+The code here is slightly different from the book, as I try to use types where I can, and check for them using [Mypy](https://mypy.readthedocs.io/en/stable/index.html), a static type checker for Python. 
+
+[PyTest](https://docs.pytest.org/en/7.4.x/) is used for testing. While inside an example directory simply run `pytest` to run the tests for that example.
 
 ## Running an Example
 
@@ -23,8 +25,6 @@ python3 app.py
 ```
 
 Each example runs on a different port. Run multiple examples simultaneously and compare them in the browser!
-
-Explore the all the examples by using the links below.
 
 ## Examples
 
