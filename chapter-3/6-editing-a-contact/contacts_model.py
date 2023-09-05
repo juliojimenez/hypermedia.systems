@@ -92,7 +92,7 @@ class Contact:
             json.dump(out_arr, f, indent=2)
 
     @classmethod
-    def find(cls, id_) -> Any | None:
+    def find(cls, id_: int) -> Any | None:
         id_ = int(id_)
         c: Any | None = cls.db.get(id_)
         if c is not None:

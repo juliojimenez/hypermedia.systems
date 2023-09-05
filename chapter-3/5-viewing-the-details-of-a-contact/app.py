@@ -44,7 +44,8 @@ def contacts_new() -> response.Response | str:
         return redirect("/contacts")
     else:
         return render_template("new.html", contact=c)
-    
+
+
 @app.route("/contacts/<contact_id>")
 def contacts_view(contact_id: int = 0) -> str:
     contact = Contact.find(contact_id)
@@ -52,4 +53,4 @@ def contacts_view(contact_id: int = 0) -> str:
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=5005)

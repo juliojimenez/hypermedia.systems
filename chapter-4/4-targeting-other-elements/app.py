@@ -1,6 +1,5 @@
 from flask import Flask, render_template
 
-
 app: Flask = Flask(__name__)
 
 app.secret_key = b"it is over"
@@ -22,4 +21,4 @@ def contacts_demo() -> str:
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=5013)

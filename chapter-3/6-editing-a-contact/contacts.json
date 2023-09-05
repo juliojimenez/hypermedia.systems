@@ -66,7 +66,7 @@
   {
     "id": 11,
     "first": "Joe",
-    "last": "Shmoe",
+    "last": "Blow",
     "phone": "123-456-7890",
     "email": "joe6@example.com",
     "errors": {}
@@ -137,18 +137,26 @@
   },
   {
     "id": 20,
-    "first": "Mickey",
-    "last": "Mouse",
-    "phone": "555-867-5309",
-    "email": "mickey@disney.com",
+    "first": null,
+    "last": null,
+    "phone": null,
+    "email": "restexample3@example.com",
     "errors": {}
   },
   {
     "id": 21,
-    "first": "Minnie",
-    "last": "Mouse",
-    "phone": "555-867-5309",
-    "email": "minnie@disney.com",
+    "first": null,
+    "last": null,
+    "phone": null,
+    "email": "restexample4@example.com",
+    "errors": {}
+  },
+  {
+    "id": 22,
+    "first": null,
+    "last": null,
+    "phone": null,
+    "email": "restexample5@example.com",
     "errors": {}
   }
 ]

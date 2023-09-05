@@ -2,9 +2,11 @@
 
 [![Type Checker](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml) [![Tests](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml)
 
-Following along with the examples from the book [Hypermedia Systems](https://hypermedia.systems).
+Follow along with the examples from the book [Hypermedia Systems](https://hypermedia.systems).
 
-The code here is slightly different from the book, as I try to use types where I can, and check for them using [Mypy](https://mypy.readthedocs.io/en/stable/index.html), a static type checker for Python. [PyTest](https://docs.pytest.org/en/7.4.x/) is used for testing.
+The code here is slightly different from the book, as I try to use types where I can, and check for them using [Mypy](https://mypy.readthedocs.io/en/stable/index.html), a static type checker for Python. 
+
+[PyTest](https://docs.pytest.org/en/7.4.x/) is used for testing. While inside an example directory simply run `pytest` to run the tests for that example.
 
 ## Running an Example
 
@@ -21,7 +23,8 @@ And run it...
 pip3 install -r requirements.txt
 python3 app.py
 ```
-You can also explore the project by using the links below.
+
+Each example runs on a different port. Run multiple examples simultaneously and compare them in the browser!
 
 ## Examples
 
@@ -56,6 +59,17 @@ You can also explore the project by using the links below.
 - [Installing HTMX as a Vendored Dependency](./chapter-5/1-installing-htmx-vendored/)
 - [Adding hx-boost to Contacts.app](./chapter-5/2-adding-hx-boost-to-contact-app/)
 - [A Second Step: Deleting Contacts With HTTP DELETE](./chapter-5/3-a-second-step-deleting-contacts-with-http-delete/)
+- Next Steps: Validating Contact Emails
+    - [Update Our Input Type](./chapter-5/4-next-steps-validating-contact-emails-update-our-input-type/)
+    - [Inline Validation](./chapter-5/5-next-steps-validating-contact-emails-inline-validation/)
+    - [Validating Emails Server-Side](./chapter-5/6-next-steps-validating-contact-emails-validating-emails-server-side/)
+    - [Taking The User Experience Further](./chapter-5/7-next-steps-validating-contact-emails-taking-the-user-experience-further/)
+    - [Debouncing Our Validation Requests](./chapter-5/8-next-steps-validating-contact-emails-debouncing-our-validation-requests/)
+    - [Ignoring Non-Mutating Keys](./chapter-5/9-next-steps-validating-contact-emails-ignoring-non-mutating-keys/)
+- Another Application Improvement: Paging
+    - [Adding Paging Widgets](./chapter-5/10-another-application-improvement-paging-adding-paging-widgets/)
+    - [Click To Load](./chapter-5/11-another-application-improvement-paging-click-to-load/)
+    - [Infinite Scroll](./chapter-5/12-another-application-improvement-paging-infinite-scroll/)
 
 ## Support
 
