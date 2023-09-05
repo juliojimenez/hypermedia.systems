@@ -109,6 +109,12 @@ updates:
       time: "05:00"
       timezone: UTC
   - package-ecosystem: pip
+    directory: chapter-4/11-history-support
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
     directory: /chapter-5/1-installing-htmx-vendored
     schedule:
       interval: daily
