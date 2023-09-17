@@ -8,7 +8,8 @@ from werkzeug.test import TestResponse
 def get_last_contact_id() -> int:
     with open("contacts.json", "r") as contacts_file:
         contacts: Any = json.load(contacts_file)
-        return contacts[-1]["id"]
+        sorted_contacts: Any = sorted(contacts, key=lambda x: x["id"])
+        return sorted_contacts[-1]["id"]
 
 
 def test_index() -> None:
