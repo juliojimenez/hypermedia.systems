@@ -24,7 +24,6 @@ def test_contacts_all() -> None:
 
 def test_contacts_page() -> None:
     response: TestResponse = app.test_client().get("/contacts?page=2")
-    print(response.data)
     assert b"<td>Blow</td>" in response.data
 
 
