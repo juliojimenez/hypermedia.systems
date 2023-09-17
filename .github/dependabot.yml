@@ -186,3 +186,9 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/1-adding-active-search
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
