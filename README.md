@@ -71,6 +71,17 @@ Each example runs on a different port. Run multiple examples simultaneously and 
     - [Click To Load](./chapter-5/11-another-application-improvement-paging-click-to-load/)
     - [Infinite Scroll](./chapter-5/12-another-application-improvement-paging-infinite-scroll/)
 
+### Chapter 6
+
+- [Adding Active Search](./chapter-6/1-adding-active-search/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
+
 ## Support
 
 Python 3.11+
+
+## Dependencies
+
+- [HTMX v1.9.5](https://htmx.org)
+- [missing.css v1.0.10](https://missing.style)
+    - Not sure what's going on with the package hosting for this, but I had to grab the artifact from the latest tag in the [repo](https://github.com/bigskysoftware/missing).
+    - It was working fine when I started this repository. If it starts working again, please submit an issue or hit me up on [X](https://twitter.com/LispDev).

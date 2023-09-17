@@ -39,7 +39,8 @@ jobs:
           "chapter-5/9-next-steps-validating-contact-emails-ignoring-non-mutating-keys",
           "chapter-5/10-another-application-improvement-paging-adding-paging-widgets",
           "chapter-5/11-another-application-improvement-paging-click-to-load",
-          "chapter-5/12-another-application-improvement-paging-infinite-scroll"
+          "chapter-5/12-another-application-improvement-paging-infinite-scroll",
+          "chapter-6/1-adding-active-search"
         ]
 
     steps:
