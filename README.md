@@ -73,7 +73,8 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 
 ### Chapter 6
 
-- [Adding Active Search](./chapter-6/1-adding-active-search/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
+- [Adding Active Search](./chapter-6/1-adding-active-search/)
+- [Targeting The Correct Element](./chapter-6/2-targeting-the-correct-element/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
 
 ## Support
 
