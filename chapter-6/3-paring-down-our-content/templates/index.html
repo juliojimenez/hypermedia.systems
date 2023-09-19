@@ -1,8 +1,6 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-    <!-- The only problem is that we haven't specified a target,
-         so the default target will be the input element itself. -->
     <form action="/contacts" method="get" class="tool-bar">
         <label for="search">Search Term</label>
         <input id="search" type="search" name="q" value="{{ request.args.get('q') or '' }}"
