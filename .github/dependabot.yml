@@ -204,3 +204,9 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/4-http-headers-in-htmx
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
