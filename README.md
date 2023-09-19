@@ -74,7 +74,8 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 ### Chapter 6
 
 - [Adding Active Search](./chapter-6/1-adding-active-search/)
-- [Targeting The Correct Element](./chapter-6/2-targeting-the-correct-element/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
+- [Targeting The Correct Element](./chapter-6/2-targeting-the-correct-element/)
+- [Paring Down Our Content](./chapter-6/3-paring-down-our-content/)  <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
 
 ## Support
 

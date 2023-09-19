@@ -41,7 +41,8 @@ jobs:
           "chapter-5/11-another-application-improvement-paging-click-to-load",
           "chapter-5/12-another-application-improvement-paging-infinite-scroll",
           "chapter-6/1-adding-active-search",
-          "chapter-6/2-targeting-the-correct-element"
+          "chapter-6/2-targeting-the-correct-element",
+          "chapter-6/3-paring-down-our-content"
         ]
 
     steps:
