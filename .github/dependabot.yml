@@ -210,3 +210,9 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/5-updating-the-navigation-bar-with-hx-push-url
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
