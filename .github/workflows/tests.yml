@@ -49,7 +49,8 @@ jobs:
           "chapter-6/7-lazy-loading",
           "chapter-6/8-pulling-out-the-expensive-code",
           "chapter-6/9-adding-an-indicator",
-          "chapter-6/10-but-thats-not-lazy"
+          "chapter-6/10-but-thats-not-lazy",
+          "chapter-6/11-inline-delete"
         ]
 
     steps:
