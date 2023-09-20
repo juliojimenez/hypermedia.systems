@@ -78,7 +78,10 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 - [Paring Down Our Content](./chapter-6/3-paring-down-our-content/)  
 - [HTTP Headers In HTMX](./chapter-6/4-http-headers-in-htmx/)
 - [Factoring Your Templates](./chapter-6/4-http-headers-in-htmx/)
-- [Using Our New Template](./chapter-6/4-http-headers-in-htmx/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
+- [Using Our New Template](./chapter-6/4-http-headers-in-htmx/)
+- [Updating The Navigation Bar With "hx-push-url"](./chapter-6/5-updating-the-navigation-bar-with-hx-push-url/)
+- [Adding A Request Indicator](./chapter-6/6-adding-a-request-indicator/)
+- [Lazy Loading](./chapter-6/7-lazy-loading/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
 
 ## Support
 
