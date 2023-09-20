@@ -228,3 +228,21 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/8-pulling-out-the-expensive-code
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/9-adding-an-indicator
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/10-but-thats-not-lazy
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC

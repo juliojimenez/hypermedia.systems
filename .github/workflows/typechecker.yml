@@ -46,7 +46,10 @@ jobs:
           "chapter-6/4-http-headers-in-htmx",
           "chapter-6/5-updating-the-navigation-bar-with-hx-push-url",
           "chapter-6/6-adding-a-request-indicator",
-          "chapter-6/7-lazy-loading"
+          "chapter-6/7-lazy-loading",
+          "chapter-6/8-pulling-out-the-expensive-code",
+          "chapter-6/9-adding-an-indicator",
+          "chapter-6/10-but-thats-not-lazy"
         ]
 
     steps:
