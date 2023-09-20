@@ -85,7 +85,8 @@ Each example runs on a different port. Run multiple examples simultaneously and 
     - [Pulling Out The Expensive Code](./chapter-6/8-pulling-out-the-expensive-code/)
     - [Adding An Indicator](./chapter-6/9-adding-an-indicator/)
     - [But That's Not Lazy!](./chapter-6/10-but-thats-not-lazy/)
-- [Inline Delete](./chapter-6/11-inline-delete/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
+- [Inline Delete](./chapter-6/11-inline-delete/)
+    - [Narrowing Our Target](./chapter-6/12-narrowing-our-target/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
 
 ## Support
 
