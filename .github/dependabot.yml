@@ -216,3 +216,9 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/6-adding-a-request-indicator
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
