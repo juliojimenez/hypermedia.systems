@@ -51,7 +51,8 @@ jobs:
           "chapter-6/9-adding-an-indicator",
           "chapter-6/10-but-thats-not-lazy",
           "chapter-6/11-inline-delete",
-          "chapter-6/12-narrowing-our-target"
+          "chapter-6/12-narrowing-our-target",
+          "chapter-6/13-updating-the-server-side"
         ]
 
     steps:
