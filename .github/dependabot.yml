@@ -276,3 +276,15 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/16-the-delete-selected-contacts-button
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/17-the-server-side-for-delete-selected-contacts
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC

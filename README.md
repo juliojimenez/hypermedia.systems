@@ -89,7 +89,9 @@ Each example runs on a different port. Run multiple examples simultaneously and 
     - [Narrowing Our Target](./chapter-6/12-narrowing-our-target/) 
     - [Updating The Server Side](./chapter-6/13-updating-the-server-side/)
     - [Taking Advantage of "htmx-swapping"](./chapter-6/14-taking-advantage-of-htmx-swapping/)
-- [Bulk Delete](./chapter-6/15-bulk-delete/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
+- [Bulk Delete](./chapter-6/15-bulk-delete/) 
+    - [The "Delete Selected Contacts" Button](./chapter-6/16-the-delete-selected-contacts-button/)
+    - [The Server Side for Delete Selected Contacts](./chapter-6/17-the-server-side-for-delete-selected-contacts/)
 
 ## Support
 

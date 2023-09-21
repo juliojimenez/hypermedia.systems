@@ -54,7 +54,9 @@ jobs:
           "chapter-6/12-narrowing-our-target",
           "chapter-6/13-updating-the-server-side",
           "chapter-6/14-taking-advantage-of-htmx-swapping",
-          "chapter-6/15-bulk-delete"
+          "chapter-6/15-bulk-delete",
+          "chapter-6/16-the-delete-selected-contacts-button",
+          "chapter-6/17-the-server-side-for-delete-selected-contacts"
         ]
 
     steps:
