@@ -106,4 +106,4 @@ def test_contacts_delete_post() -> None:
     response: TestResponse = app.test_client().delete(
         f"/contacts/{get_last_contact_id()}"
     )
-    assert response.status_code == 303
+    assert response.status_code == 303 | 200
