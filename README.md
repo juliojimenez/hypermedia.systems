@@ -88,7 +88,8 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 - [Inline Delete](./chapter-6/11-inline-delete/)
     - [Narrowing Our Target](./chapter-6/12-narrowing-our-target/) 
     - [Updating The Server Side](./chapter-6/13-updating-the-server-side/)
-    - [Taking Advantage of "htmx-swapping"](./chapter-6/14-taking-advantage-of-htmx-swapping/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
+    - [Taking Advantage of "htmx-swapping"](./chapter-6/14-taking-advantage-of-htmx-swapping/)
+- [Bulk Delete](./chapter-6/15-bulk-delete/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
 
 ## Support
 

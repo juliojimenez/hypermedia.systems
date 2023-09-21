@@ -270,3 +270,9 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/15-bulk-delete
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
