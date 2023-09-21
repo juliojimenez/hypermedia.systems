@@ -2,7 +2,7 @@
 
 [![Type Checker](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml) [![Tests](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml)
 
-Follow along with the examples from the book [Hypermedia Systems](https://hypermedia.systems).
+Examples from the book [Hypermedia Systems](https://hypermedia.systems).
 
 The code here is slightly different from the book, as I try to use types where I can, and check for them using [Mypy](https://mypy.readthedocs.io/en/stable/index.html), a static type checker for Python. 
 
