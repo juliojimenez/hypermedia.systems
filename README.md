@@ -87,7 +87,8 @@ Each example runs on a different port. Run multiple examples simultaneously and 
     - [But That's Not Lazy!](./chapter-6/10-but-thats-not-lazy/)
 - [Inline Delete](./chapter-6/11-inline-delete/)
     - [Narrowing Our Target](./chapter-6/12-narrowing-our-target/) 
-    - [Updating The Server Side](./chapter-6/13-updating-the-server-side/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
+    - [Updating The Server Side](./chapter-6/13-updating-the-server-side/)
+    - [Taking Advantage of "htmx-swapping"](./chapter-6/14-taking-advantage-of-htmx-swapping/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
 
 ## Support
 

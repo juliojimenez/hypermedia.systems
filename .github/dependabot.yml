@@ -264,3 +264,9 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/14-taking-advantage-of-htmx-swapping
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
