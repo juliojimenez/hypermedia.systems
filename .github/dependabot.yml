@@ -192,3 +192,99 @@ updates:
       interval: daily
       time: "05:00"
       timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/2-targeting-the-correct-element
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/3-paring-down-our-content
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/4-http-headers-in-htmx
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/5-updating-the-navigation-bar-with-hx-push-url
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/6-adding-a-request-indicator
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/7-lazy-loading
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/8-pulling-out-the-expensive-code
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/9-adding-an-indicator
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/10-but-thats-not-lazy
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/11-inline-delete
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/12-narrowing-our-target
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/13-updating-the-server-side
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/14-taking-advantage-of-htmx-swapping
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/15-bulk-delete
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/16-the-delete-selected-contacts-button
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC
+  - package-ecosystem: pip
+    directory: chapter-6/17-the-server-side-for-delete-selected-contacts
+    schedule:
+      interval: daily
+      time: "05:00"
+      timezone: UTC

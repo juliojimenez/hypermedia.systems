@@ -2,7 +2,7 @@
 
 [![Type Checker](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml) [![Tests](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml)
 
-Follow along with the examples from the book [Hypermedia Systems](https://hypermedia.systems).
+Examples from the book [Hypermedia Systems](https://hypermedia.systems).
 
 The code here is slightly different from the book, as I try to use types where I can, and check for them using [Mypy](https://mypy.readthedocs.io/en/stable/index.html), a static type checker for Python. 
 
@@ -73,7 +73,25 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 
 ### Chapter 6
 
-- [Adding Active Search](./chapter-6/1-adding-active-search/) <span style="background-color:red;padding:1px 5px;font-weight:bolder;border-radius:2px;">New</span>
+- [Adding Active Search](./chapter-6/1-adding-active-search/)
+    - [Targeting The Correct Element](./chapter-6/2-targeting-the-correct-element/)
+    - [Paring Down Our Content](./chapter-6/3-paring-down-our-content/)  
+    - [HTTP Headers In HTMX](./chapter-6/4-http-headers-in-htmx/)
+    - [Factoring Your Templates](./chapter-6/4-http-headers-in-htmx/)
+    - [Using Our New Template](./chapter-6/4-http-headers-in-htmx/)
+    - [Updating The Navigation Bar With "hx-push-url"](./chapter-6/5-updating-the-navigation-bar-with-hx-push-url/)
+    - [Adding A Request Indicator](./chapter-6/6-adding-a-request-indicator/)
+- [Lazy Loading](./chapter-6/7-lazy-loading/) 
+    - [Pulling Out The Expensive Code](./chapter-6/8-pulling-out-the-expensive-code/)
+    - [Adding An Indicator](./chapter-6/9-adding-an-indicator/)
+    - [But That's Not Lazy!](./chapter-6/10-but-thats-not-lazy/)
+- [Inline Delete](./chapter-6/11-inline-delete/)
+    - [Narrowing Our Target](./chapter-6/12-narrowing-our-target/) 
+    - [Updating The Server Side](./chapter-6/13-updating-the-server-side/)
+    - [Taking Advantage of "htmx-swapping"](./chapter-6/14-taking-advantage-of-htmx-swapping/)
+- [Bulk Delete](./chapter-6/15-bulk-delete/) 
+    - [The "Delete Selected Contacts" Button](./chapter-6/16-the-delete-selected-contacts-button/)
+    - [The Server Side for Delete Selected Contacts](./chapter-6/17-the-server-side-for-delete-selected-contacts/)
 
 ## Support
 
