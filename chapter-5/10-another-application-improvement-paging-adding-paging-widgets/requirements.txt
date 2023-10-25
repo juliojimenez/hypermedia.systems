@@ -1,4 +1,4 @@
 Flask==2.3.3
 pytest==7.4.2
 typing-extensions==4.8.0
-Werkzeug==2.3.7
+Werkzeug==3.0.1
