@@ -13,6 +13,11 @@ The code here is slightly different from the book, as I try to use types where I
 Clone the repo...
 ```bash
 git clone https://github.com/juliojimenez/hypermedia.systems
+cd hypermedia.systems
+```
+Install dependencies...
+```bash
+pip3 install -r requirements.txt
 ```
 Go to an example...
 ```bash
@@ -20,7 +25,6 @@ cd chapter-3/1-simple-hello-world/
 ```
 And run it...
 ```bash
-pip3 install -r requirements.txt
 python3 app.py
 ```
 
