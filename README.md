@@ -97,6 +97,9 @@ Each example runs on a different port. Run multiple examples simultaneously and 
     - [The "Delete Selected Contacts" Button](./chapter-6/16-the-delete-selected-contacts-button/)
     - [The Server Side for Delete Selected Contacts](./chapter-6/17-the-server-side-for-delete-selected-contacts/)
 
+### Chapter 7
+
+
 ## Support
 
 Python 3.11+
