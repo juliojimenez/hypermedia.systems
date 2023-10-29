@@ -99,7 +99,7 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 
 ### Chapter 7
 
-- 
+- [Beginning Our Implementation](./chapter-7/1-beginning-our-implementation/)
 
 ## Support
 
