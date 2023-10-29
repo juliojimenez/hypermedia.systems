@@ -1,6 +1,10 @@
+import json
+from operator import attrgetter
+from random import random
+from threading import Thread
 import time
 from typing import Any
-import json
+
 
 PAGE_SIZE: int = 10
 
@@ -109,3 +113,43 @@ class Contact:
         if c is not None:
             c.errors = {}
         return c
+
+class Archiver:
+    archive_status: str = "Waiting"
+    archive_progress: float = 0
+    thread: Thread | None = None
+
+    def status(self) -> str:
+        return Archiver.archive_status
+
+    def progress(self) -> float:
+        return Archiver.archive_progress
+
+    def run(self) -> None:
+        if Archiver.archive_status == "Waiting":
+            Archiver.archive_status = "Running"
+            Archiver.archive_progress = 0
+            Archiver.thread = Thread(target=self.run_impl)
+            Archiver.thread.start()
+
+    def run_impl(self) -> None:
+        for i in range(10):
+            time.sleep(1 * random())
+            if Archiver.archive_status != "Running":
+                return
+            Archiver.archive_progress = (i + 1) / 10
+            print("Here... " + str(Archiver.archive_progress))
+        time.sleep(1)
+        if Archiver.archive_status != "Running":
+            return
+        Archiver.archive_status = "Complete"
+
+    def archive_file(self) -> str:
+        return 'contacts.json'
+
+    def reset(self) -> None:
+        Archiver.archive_status = "Waiting"
+
+    @classmethod
+    def get(cls):
+        return Archiver()
