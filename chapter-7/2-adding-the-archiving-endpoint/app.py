@@ -117,4 +117,4 @@ def contacts_delete_all() -> str:
 
 
 if __name__ == "__main__":
-    app.run(port=5047)
+    app.run(port=5048)
