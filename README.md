@@ -100,6 +100,8 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 ### Chapter 7
 
 - [Beginning Our Implementation](./chapter-7/1-beginning-our-implementation/)
+- [Adding The Archiving Endpoing](./chapter-7/2-adding-the-archiving-endpoint/)
+- [Conditionally Rendering A Progress UI](./chapter-7/3-conditionally-rendering-a-progress-ui/)
 
 ## Support
 
