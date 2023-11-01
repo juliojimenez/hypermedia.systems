@@ -25,7 +25,7 @@ def contacts() -> str:
             return render_template("rows.html", contacts=contacts_set)
     else:
         contacts_set = Contact.all(page)
-    return render_template("index.html", contacts=contacts_set, page=page)
+    return render_template("index.html", contacts=contacts_set, page=page, archiver=Archiver.get())
 
 
 
