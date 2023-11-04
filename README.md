@@ -103,6 +103,7 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 - [Adding The Archiving Endpoing](./chapter-7/2-adding-the-archiving-endpoint/)
 - [Conditionally Rendering A Progress UI](./chapter-7/3-conditionally-rendering-a-progress-ui/)
 - [Using Polling To Update The Archive UI](./chapter-7/4-using-polling-to-update-the-archive-ui/)
+- [Downloading The Result](./chapter-7/5-downloading-the-result/)
 
 ## Support
 

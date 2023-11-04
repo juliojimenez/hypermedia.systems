@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <title>Contact App</title>
+        <link rel="stylesheet" href="/static/css/missing.min.css">
+        <link rel="stylesheet" href="/static/css/site.css">
+        <script src="/static/js/htmx.min.js"></script>
+    </head>
+    <body hx-boost="true">
+        <main style="min-width:720px;">
+            <header>
+                <h1>
+                    <span style="text-transform:uppercase;">contacts.app</span>
+                    <sub-title>A Demo Contacts Application</sub-title>
+                </h1>
+            </header>
+            {% block content %}{% endblock %}
+        </main>
+    </body>
+</html>

@@ -60,7 +60,8 @@ jobs:
           "chapter-7/1-beginning-our-implementation",
           "chapter-7/2-adding-the-archiving-endpoint",
           "chapter-7/3-conditionally-rendering-a-progress-ui",
-          "chapter-7/4-using-polling-to-update-the-archive-ui"
+          "chapter-7/4-using-polling-to-update-the-archive-ui",
+          "chapter-7/5-downloading-the-result"
         ]
 
     steps:
