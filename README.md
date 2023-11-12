@@ -104,6 +104,9 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 - [Conditionally Rendering A Progress UI](./chapter-7/3-conditionally-rendering-a-progress-ui/)
 - [Using Polling To Update The Archive UI](./chapter-7/4-using-polling-to-update-the-archive-ui/)
 - [Downloading The Result](./chapter-7/5-downloading-the-result/)
+- [Downloading The Completed Archive](./chapter-7/6-downloading-the-completed-archive/)
+- [Our Smoothing Solution](./chapter-7/7-our-smoothing-solution/)
+- [Dismissing The Download UI](./chapter-7/8-dismissing-the-download-ui/)
 
 ## Support
 
