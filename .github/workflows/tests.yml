@@ -56,7 +56,16 @@ jobs:
           "chapter-6/14-taking-advantage-of-htmx-swapping",
           "chapter-6/15-bulk-delete",
           "chapter-6/16-the-delete-selected-contacts-button",
-          "chapter-6/17-the-server-side-for-delete-selected-contacts"
+          "chapter-6/17-the-server-side-for-delete-selected-contacts",
+          "chapter-7/1-beginning-our-implementation",
+          "chapter-7/2-adding-the-archiving-endpoint",
+          "chapter-7/3-conditionally-rendering-a-progress-ui",
+          "chapter-7/4-using-polling-to-update-the-archive-ui",
+          "chapter-7/5-downloading-the-result",
+          "chapter-7/6-downloading-the-completed-archive",
+          "chapter-7/7-our-smoothing-solution",
+          "chapter-7/8-dismissing-the-download-ui",
+          "chapter-7/9-an-alternative-ux-auto-download"
         ]
 
     steps:

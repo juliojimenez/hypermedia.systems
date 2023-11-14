@@ -97,6 +97,18 @@ Each example runs on a different port. Run multiple examples simultaneously and 
     - [The "Delete Selected Contacts" Button](./chapter-6/16-the-delete-selected-contacts-button/)
     - [The Server Side for Delete Selected Contacts](./chapter-6/17-the-server-side-for-delete-selected-contacts/)
 
+### Chapter 7
+
+- [Beginning Our Implementation](./chapter-7/1-beginning-our-implementation/)
+- [Adding The Archiving Endpoing](./chapter-7/2-adding-the-archiving-endpoint/)
+- [Conditionally Rendering A Progress UI](./chapter-7/3-conditionally-rendering-a-progress-ui/)
+- [Using Polling To Update The Archive UI](./chapter-7/4-using-polling-to-update-the-archive-ui/)
+- [Downloading The Result](./chapter-7/5-downloading-the-result/)
+- [Downloading The Completed Archive](./chapter-7/6-downloading-the-completed-archive/)
+- [Our Smoothing Solution](./chapter-7/7-our-smoothing-solution/)
+- [Dismissing The Download UI](./chapter-7/8-dismissing-the-download-ui/)
+- [An Alternative UX: Auto-Download](./chapter-7/9-an-alternative-ux-auto-download/)
+
 ## Support
 
 Python 3.11+
