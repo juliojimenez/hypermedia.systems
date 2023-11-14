@@ -107,6 +107,7 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 - [Downloading The Completed Archive](./chapter-7/6-downloading-the-completed-archive/)
 - [Our Smoothing Solution](./chapter-7/7-our-smoothing-solution/)
 - [Dismissing The Download UI](./chapter-7/8-dismissing-the-download-ui/)
+- [An Alternative UX: Auto-Download](./chapter-7/9-an-alternative-ux-auto-download/)
 
 ## Support
 

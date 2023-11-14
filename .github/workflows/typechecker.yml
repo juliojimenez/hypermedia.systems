@@ -64,7 +64,8 @@ jobs:
           "chapter-7/5-downloading-the-result",
           "chapter-7/6-downloading-the-completed-archive",
           "chapter-7/7-our-smoothing-solution",
-          "chapter-7/8-dismissing-the-download-ui"
+          "chapter-7/8-dismissing-the-download-ui",
+          "chapter-7/9-an-alternative-ux-auto-download"
         ]
 
     steps:
