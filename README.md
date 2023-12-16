@@ -2,7 +2,7 @@
 
 [![Type Checker](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/typechecker.yml) [![Tests](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml/badge.svg)](https://github.com/juliojimenez/hypermedia.systems/actions/workflows/tests.yml)
 
-Examples from the book [Hypermedia Systems](https://hypermedia.systems).
+Examples from building the Contacts app in the book [Hypermedia Systems](https://hypermedia.systems).
 
 The code here is slightly different from the book, as I try to use types where I can, and check for them using [Mypy](https://mypy.readthedocs.io/en/stable/index.html), a static type checker for Python. 
 
@@ -108,6 +108,10 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 - [Our Smoothing Solution](./chapter-7/7-our-smoothing-solution/)
 - [Dismissing The Download UI](./chapter-7/8-dismissing-the-download-ui/)
 - [An Alternative UX: Auto-Download](./chapter-7/9-an-alternative-ux-auto-download/)
+
+### Chapter 9
+
+- [VanillaJS in Action: An Overflow Menu](./chapter-9/1-vanillajs-in-action-an-overflow-menu)
 
 ## Support
 
