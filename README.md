@@ -112,6 +112,7 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 ### Chapter 9
 
 - [VanillaJS in Action: An Overflow Menu](./chapter-9/1-vanillajs-in-action-an-overflow-menu)
+- [Alpine.js](./chapter-9/2-alpine.js)
 
 ## Support
 
