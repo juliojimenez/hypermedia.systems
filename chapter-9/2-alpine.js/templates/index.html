@@ -26,9 +26,16 @@
         <div class="box info tool-bar">
             <slot x-text="selected.length"></slot>
             contacts selected
-            <button type="button" class="bad bg color border">Delete</button>
+            <button
+                type="button"
+                class="bad bg color border"
+                @click="confirm(`Delete ${selected.length} contacts?`) &&
+                    htmx.ajax('DELETE', '/contacts', { source: $root, target: document.body })"
+            >
+                Delete
+            </button>
             <hr aria-orientation="vertical" />
-            <button type="button">Cancel</button>
+            <button type="button" @click="selected = []">Cancel</button>
         </div>
     </template>
     <table>
