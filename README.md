@@ -114,6 +114,7 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 - [VanillaJS in Action: An Overflow Menu](./chapter-9/1-vanillajs-in-action-an-overflow-menu)
 - [Alpine.js](./chapter-9/2-alpine.js)
 - [_hyperscript](./chapter-9/3-hyperscript)
+- [Integrating Using Callbacks](./chapter-9/4-integrating-using-callbacks)
 
 ## Support
 
