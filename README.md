@@ -115,6 +115,7 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 - [Alpine.js](./chapter-9/2-alpine.js)
 - [_hyperscript](./chapter-9/3-hyperscript)
 - [Integrating Using Callbacks](./chapter-9/4-integrating-using-callbacks)
+- [Integrating Using Events](./chapter-9/5-integrating-using-events)
 
 ## Support
 
