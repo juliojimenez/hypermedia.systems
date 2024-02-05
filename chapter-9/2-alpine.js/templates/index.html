@@ -1,0 +1,88 @@
+{% extends 'layout.html' %} {% block content %} {% include 'archive_ui.html' %}
+<form action="/contacts" method="get" class="tool-bar">
+    <label for="search">Search Term</label>
+    <input
+        id="search"
+        type="search"
+        name="q"
+        value="{{ request.args.get('q') or '' }}"
+        hx-get="/contacts"
+        hx-trigger="search, keyup delay:200ms changed"
+        hx-target="tbody"
+        hx-push-url="true"
+        hx-indicator="#spinner"
+    />
+    <img
+        id="spinner"
+        class="htmx-indicator"
+        style="width: 32px"
+        src="/static/img/spinning-circles.svg"
+        alt="Request In Flight..."
+    />
+    <input type="submit" value="Search" />
+</form>
+<form x-data="{ selected: [] }">
+    <template x-if="selected.length > 0">
+        <div class="box info tool-bar">
+            <slot x-text="selected.length"></slot>
+            contacts selected
+            <button
+                type="button"
+                class="bad bg color border"
+                @click="confirm(`Delete ${selected.length} contacts?`) &&
+                    htmx.ajax('DELETE', '/contacts', { source: $root, target: document.body })"
+            >
+                Delete
+            </button>
+            <hr aria-orientation="vertical" />
+            <button type="button" @click="selected = []">Cancel</button>
+        </div>
+    </template>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% include 'rows.html' %} {% if contacts|length == 10 %}
+            <tr>
+                <td colspan="5" style="text-align: center">
+                    <span
+                        hx-target="closest tr"
+                        hx-trigger="revealed"
+                        hx-swap="outerHTML"
+                        hx-select="tbody > tr"
+                        hx-get="/contacts?page={{ page + 1 }}"
+                    >
+                        Loading More
+                    </span>
+                </td>
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+    <button
+        hx-delete="/contacts"
+        hx-confirm="Are you sure you want to delete these contacts?"
+        hx-target="body"
+    >
+        Delete Selected Contacts
+    </button>
+</form>
+<p>
+    <a href="/contacts/new">Add Contact</a>
+    <span hx-get="/contacts/count" hx-trigger="revealed"
+        ><img
+            id="spinner"
+            class="htmx-indicator"
+            style="width: 32px"
+            src="/static/img/spinning-circles.svg"
+    /></span>
+</p>
+{% endblock %}
