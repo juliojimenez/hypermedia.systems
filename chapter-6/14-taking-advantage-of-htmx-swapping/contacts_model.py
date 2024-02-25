@@ -62,7 +62,7 @@ class Contact:
         del Contact.db[self.id]
         Contact.save_db()
         return True
-    
+
     @classmethod
     def count(cls) -> int:
         time.sleep(2)

@@ -117,6 +117,13 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 - [Integrating Using Callbacks](./chapter-9/4-integrating-using-callbacks)
 - [Integrating Using Events](./chapter-9/5-integrating-using-events)
 
+### Chapter 10
+
+- [Our First JSON Endpoint: Listing All Contacts](./chapter-10/1-listing-all-contacts)
+- [Adding Contacts](./chapter-10/2-adding-contacts)
+- [Viewing Contact Details](./chapter-10/3-viewing-contact-details)
+- [Updating & Deleting Contacts](./chapter-10/4-updating-and-deleting-contacts)
+
 ## Support
 
 Python 3.11+

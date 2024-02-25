@@ -21,12 +21,13 @@ def contacts() -> str:
     page: int = int(request.args.get("page", 1))
     if search is not None:
         contacts_set: list = Contact.search(search)
-        if request.headers.get('HX-Trigger') == 'search':
+        if request.headers.get("HX-Trigger") == "search":
             return render_template("rows.html", contacts=contacts_set)
     else:
         contacts_set = Contact.all(page)
-    return render_template("index.html", contacts=contacts_set, page=page, archiver=Archiver.get())
-
+    return render_template(
+        "index.html", contacts=contacts_set, page=page, archiver=Archiver.get()
+    )
 
 
 @app.route("/contacts/count")
@@ -97,12 +98,12 @@ def contacts_delete(contact_id: int = 0) -> response.Response | str:
     contact: Any | None = Contact.find(contact_id)
     if contact is not None:
         contact.delete()
-    if request.headers.get('HX-Trigger') == 'delete-btn':
+    if request.headers.get("HX-Trigger") == "delete-btn":
         flash("Deleted Contact!")
         return redirect("/contacts", 303)
     else:
         return ""
-    
+
 
 @app.route("/contacts/", methods=["DELETE"])
 def contacts_delete_all() -> str:
