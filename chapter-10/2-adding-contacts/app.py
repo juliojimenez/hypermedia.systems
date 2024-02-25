@@ -152,8 +152,13 @@ def json_contacts() -> dict:
 
 @app.route("/api/v1/contacts", methods=["POST"])
 def json_contacts_new() -> tuple[dict, int]:
-    c: Contact = Contact(None, request.form.get('first_name'), request.form.get('last_name'), request.form.get('phone'),
-                request.form.get('email'))
+    c: Contact = Contact(
+        None,
+        request.form.get("first_name"),
+        request.form.get("last_name"),
+        request.form.get("phone"),
+        request.form.get("email"),
+    )
     if c.save():
         return c.__dict__, 200
     else:

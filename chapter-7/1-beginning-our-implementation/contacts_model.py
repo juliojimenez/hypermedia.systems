@@ -66,7 +66,7 @@ class Contact:
         del Contact.db[self.id]
         Contact.save_db()
         return True
-    
+
     @classmethod
     def count(cls) -> int:
         time.sleep(2)
@@ -114,6 +114,7 @@ class Contact:
             c.errors = {}
         return c
 
+
 class Archiver:
     archive_status: str = "Waiting"
     archive_progress: float = 0
@@ -145,7 +146,7 @@ class Archiver:
         Archiver.archive_status = "Complete"
 
     def archive_file(self) -> str:
-        return 'contacts.json'
+        return "contacts.json"
 
     def reset(self) -> None:
         Archiver.archive_status = "Waiting"

@@ -24,7 +24,7 @@ class Contact:
 
     def __str__(self) -> str:
         return json.dumps(self.__dict__, ensure_ascii=False)
-    
+
     def update(self, first: str, last: str, phone: str, email: str) -> None:
         self.first = first
         self.last = last

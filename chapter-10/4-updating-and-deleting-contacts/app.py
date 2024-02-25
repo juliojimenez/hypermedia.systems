@@ -152,8 +152,13 @@ def json_contacts() -> dict:
 
 @app.route("/api/v1/contacts", methods=["POST"])
 def json_contacts_new() -> tuple[dict, int]:
-    c: Contact = Contact(None, request.form.get('first_name'), request.form.get('last_name'), request.form.get('phone'),
-                request.form.get('email'))
+    c: Contact = Contact(
+        None,
+        request.form.get("first_name"),
+        request.form.get("last_name"),
+        request.form.get("phone"),
+        request.form.get("email"),
+    )
     if c.save():
         return c.__dict__, 200
     else:
@@ -169,7 +174,12 @@ def json_contacts_view(contact_id=0) -> dict:
 @app.route("/api/v1/contacts/<contact_id>", methods=["PUT"])
 def json_contacts_edit(contact_id) -> tuple[dict, int]:
     c: Any = Contact.find(contact_id)
-    c.update(request.form['first_name'], request.form['last_name'], request.form['phone'], request.form['email'])
+    c.update(
+        request.form["first_name"],
+        request.form["last_name"],
+        request.form["phone"],
+        request.form["email"],
+    )
     if c.save():
         return c.__dict__, 200
     else:
