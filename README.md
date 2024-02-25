@@ -120,6 +120,7 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 ### Chapter 10
 
 - [Our First JSON Endpoint: Listing All Contacts](./chapter-10/1-listing-all-contacts)
+- [Adding Contacts](./chapter-10/2-adding-contacts)
 
 ## Support
 
