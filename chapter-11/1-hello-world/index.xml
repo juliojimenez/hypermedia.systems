@@ -1,0 +1,13 @@
+<doc xmlns="https://hyperview.org/hyperview">
+  <screen>
+    <styles />
+    <body>
+      <header>
+        <text>My first app</text>
+      </header>
+      <view>
+        <text>Hello World!</text>
+      </view>
+    </body>
+  </screen>
+</doc>
