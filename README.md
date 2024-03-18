@@ -134,7 +134,9 @@ Each example runs on a different port. Run multiple examples simultaneously and 
 ### Chapter 11
 
 - Introduction To HXML
-  - [Hello World]()
+  - [Hello World](./chapter-11/1-hello-world)
+  - UI Elements
+    - [Lists](./chapter-11/2-ui-elements-lists)
 
 ## Support
 
