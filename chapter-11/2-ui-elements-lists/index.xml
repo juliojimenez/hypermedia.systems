@@ -15,6 +15,27 @@
                 <text>My second item</text>
             </item>
         </list>
+        <section-list>
+            <section>
+                <section-title>
+                    <text>Appetizers</text>
+                </section-title>
+                <item key="1">
+                    <text>French Fries</text>
+                </item>
+                <item key="2">
+                    <text>Onion Rings</text>
+                </item>
+            </section>
+            <section>
+                <section-title>
+                    <text>Entrees</text>
+                </section-title>
+                <item key="3">
+                    <text>Burger</text>
+                </item>
+            </section>
+        </section-list>
       </view>
     </body>
   </screen>
