@@ -137,6 +137,7 @@ Each example runs on a different port. Run multiple examples simultaneously and 
   - [Hello World](./chapter-11/1-hello-world)
   - UI Elements
     - [Lists](./chapter-11/2-ui-elements-lists)
+    - [Images](./chapter-11/3-ui-elements-images)
 
 ## Support
 
