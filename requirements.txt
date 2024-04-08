@@ -1,4 +1,4 @@
-Flask==3.0.2
+Flask==3.0.3
 pytest==8.1.1
 typing-extensions==4.10.0
 Werkzeug==3.0.2
