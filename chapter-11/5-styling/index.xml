@@ -1,0 +1,64 @@
+<doc xmlns="https://hyperview.org/hyperview">
+  <screen>
+    <styles>
+      <style class="body" flex="1" flexDirection="column" />
+      <style class="header" borderBottomWidth="1" borderBottomColor="#ccc" />
+      <style class="main" margin="24" />
+      <style class="h1" fontSize="32" />
+      <style class="info" color="blue" />
+    </styles>
+    <body style="body">
+      <header style="header">
+        <text style="info">My first app</text>
+      </header>
+      <view style="main">
+        <text style="h1 info">Hello World!</text>
+        <list>
+            <item key="item1">
+                <text>My first item</text>
+            </item>
+            <item key="item2">
+                <text>My second item</text>
+            </item>
+        </list>
+        <section-list>
+            <section>
+                <section-title>
+                    <text>Appetizers</text>
+                </section-title>
+                <item key="1">
+                    <text>French Fries</text>
+                </item>
+                <item key="2">
+                    <text>Onion Rings</text>
+                </item>
+            </section>
+            <section>
+                <section-title>
+                    <text>Entrees</text>
+                </section-title>
+                <item key="3">
+                    <text>Burger</text>
+                </item>
+            </section>
+        </section-list>
+        <image source="/profiles/1.jpg" style="avatar" />
+        <image source="./logo.png" style="logo" />
+        <text-field
+            name="first_name"
+            style="input"
+            value="Adam"
+            placeholder="First name"
+        />
+        <select-single name="choice">
+            <option value="option1">
+                <text>Option 1</text>
+            </option>
+            <option value="option2">
+                <text>Option 2</text>
+            </option>
+        </select-single>
+      </view>
+    </body>
+  </screen>
+</doc>
