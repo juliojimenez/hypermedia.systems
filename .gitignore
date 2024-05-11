@@ -160,4 +160,5 @@ cython_debug/
 #.idea/
 .mypy_cache
 .vscode
+.zed
 TODO.md
