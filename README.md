@@ -140,6 +140,7 @@ Each example runs on a different port. Run multiple examples simultaneously and 
     - [Images](./chapter-11/3-ui-elements-images)
   - [Inputs](./chapter-11/4-inputs)
   - [Styling](./chapter-11/5-styling)
+  - [Custom Elements](./chapter-11/6-custom-elements)
 
 ## Support
 
